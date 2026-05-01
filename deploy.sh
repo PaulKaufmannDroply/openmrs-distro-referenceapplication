@@ -11,6 +11,7 @@ docker compose \
 echo "==> Pushing to ghcr.io..."
 docker compose \
   -f docker-compose.yml \
+  -f docker-compose.override.yml \
   -f docker-compose.prod.yml \
   push gateway frontend backend
 
