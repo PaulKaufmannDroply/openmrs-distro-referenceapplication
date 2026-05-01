@@ -7,8 +7,6 @@ services:
     depends_on:
       - frontend
       - backend
-    ports:
-      - "80:80"
 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}

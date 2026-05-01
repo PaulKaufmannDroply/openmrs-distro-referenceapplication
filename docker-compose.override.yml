@@ -4,10 +4,18 @@ services:
   gateway:
     build:
       context: ./gateway
+    ports:
+      - "80:80"
 
   frontend:
     build:
       context: ./frontend
+    volumes:
+      - ./frontend/msi-esm-field-app:/usr/share/nginx/html/msi-esm-field-app
+      - ./frontend/patched-esm-patient-registration-app:/usr/share/nginx/html/patched-esm-patient-registration-app
+      - ./frontend/importmap.json:/usr/share/nginx/html/importmap.json
+      - ./frontend/config-core_demo.json:/usr/share/nginx/html/config-core_demo.json
+      - ./frontend/routes.registry.json:/usr/share/nginx/html/routes.registry.json
 
   backend:
     build:

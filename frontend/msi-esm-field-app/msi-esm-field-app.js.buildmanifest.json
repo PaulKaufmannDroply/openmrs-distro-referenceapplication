@@ -1,0 +1,529 @@
+{
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1965,
+      "sizes": {
+        "javascript": 1965
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "55.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9d189796542a53da",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "3b8f7a6592846884",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1914,
+      "sizes": {
+        "javascript": 1914
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "99.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "7fd6c0a6bb4b5023",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 163792,
+      "sizes": {
+        "javascript": 163792
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "184.js"
+      ],
+      "auxiliaryFiles": [
+        "184.js.map"
+      ],
+      "hash": "5d1a05180fb58166",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1244,
+      "sizes": {
+        "javascript": 1244
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "197.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "d534e192693f2d72",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 4441591,
+      "sizes": {
+        "javascript": 4441591
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "224.js"
+      ],
+      "auxiliaryFiles": [
+        "224.js.map"
+      ],
+      "hash": "905ddfe922378999",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4832,
+      "sizes": {
+        "javascript": 4832
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "248.js"
+      ],
+      "auxiliaryFiles": [
+        "248.js.map"
+      ],
+      "hash": "b1e26739e4bfbd73",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1643,
+      "sizes": {
+        "javascript": 1643
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "300.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "0bb4481b1e338859",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1603,
+      "sizes": {
+        "javascript": 1603
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "335.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "82befb4caa256cc6",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 168,
+      "sizes": {
+        "consume-shared": 168
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "047478ac9d0017b2",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7160,
+      "sizes": {
+        "javascript": 7160
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "353.js"
+      ],
+      "auxiliaryFiles": [
+        "353.js.map"
+      ],
+      "hash": "0431d2c80746cd26",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 399286,
+      "sizes": {
+        "javascript": 399286
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "430.js"
+      ],
+      "auxiliaryFiles": [
+        "430.js.map"
+      ],
+      "hash": "4720a976b5c2ddd7",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 35563,
+      "sizes": {
+        "javascript": 35563
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "463.js"
+      ],
+      "auxiliaryFiles": [
+        "463.js.map"
+      ],
+      "hash": "96934642abdef5f5",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7103,
+      "sizes": {
+        "javascript": 7103
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "540.js"
+      ],
+      "auxiliaryFiles": [
+        "540.js.map"
+      ],
+      "hash": "a9c9851a78674c1b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1385,
+      "sizes": {
+        "javascript": 1385
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "652.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a26b65250544e39b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1144,
+      "sizes": {
+        "javascript": 1144
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app"
+      ],
+      "files": [
+        "729.js"
+      ],
+      "auxiliaryFiles": [
+        "729.js.map"
+      ],
+      "hash": "942b822835848f20",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 22122,
+      "sizes": {
+        "consume-shared": 42,
+        "javascript": 1144,
+        "share-init": 252,
+        "runtime": 20684
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "3965142e7a31b8d9",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 20560,
+      "sizes": {
+        "javascript": 42,
+        "share-init": 252,
+        "runtime": 20266
+      },
+      "names": [
+        "@msi/esm-field-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app"
+      ],
+      "files": [
+        "msi-esm-field-app.js"
+      ],
+      "auxiliaryFiles": [
+        "msi-esm-field-app.js.map"
+      ],
+      "hash": "218ce2150c36bd7c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 39684,
+      "sizes": {
+        "javascript": 39684
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "844.js"
+      ],
+      "auxiliaryFiles": [
+        "844.js.map"
+      ],
+      "hash": "c0de89f2f4a18521",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 2587,
+      "sizes": {
+        "javascript": 2587
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "853.js"
+      ],
+      "auxiliaryFiles": [
+        "853.js.map"
+      ],
+      "hash": "6913d6c041248a65",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 1804266,
+      "sizes": {
+        "javascript": 1804266
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [
+        "949.js"
+      ],
+      "auxiliaryFiles": [
+        "949.js.map"
+      ],
+      "hash": "812b393eb5e6074c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@msi/esm-field-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "e098cd1bba52c2eb",
+      "childrenByOrder": {}
+    }
+  ]
+}
