@@ -1,0 +1,3 @@
+patients.medical-solidarity.org {
+    reverse_proxy gateway:80
+}
