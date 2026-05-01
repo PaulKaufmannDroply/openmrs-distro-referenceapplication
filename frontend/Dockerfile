@@ -24,8 +24,8 @@ FROM nginx:1.25-alpine
 
 RUN apk update && \
     apk upgrade && \
-    # add more utils for sponge and envsubst
-    apk add --no-cache moreutils
+    # add more utils for sponge and envsubst, jq for importmap patching
+    apk add --no-cache moreutils jq
 
 # clear any default files installed by nginx
 RUN rm -rf /usr/share/nginx/html/*
@@ -37,5 +37,11 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=dev /app/spa /usr/share/nginx/html
 COPY config-core_demo.json /usr/share/nginx/html
+
+# MSI Field App — inject build artifact and patch the generated importmap
+COPY msi-esm-field-app/ /usr/share/nginx/html/msi-esm-field-app/
+RUN jq '.imports["@msi/esm-field-app"] = "./msi-esm-field-app/msi-esm-field-app.js"' \
+    /usr/share/nginx/html/importmap.json | sponge /usr/share/nginx/html/importmap.json
+COPY routes.registry.json /usr/share/nginx/html/routes.registry.json
 
 CMD ["/usr/local/bin/startup.sh"]

@@ -173,10 +173,10 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 2803010,
+      "size": 2803227,
       "sizes": {
         "consume-shared": 168,
-        "javascript": 2802506,
+        "javascript": 2802723,
         "runtime": 14891,
         "share-init": 336
       },
@@ -193,7 +193,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "bb3661dd6bfa7929",
+      "hash": "e3a451f64287ec6a",
       "childrenByOrder": {}
     },
     {
@@ -788,10 +788,10 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 116120,
+      "size": 116337,
       "sizes": {
         "consume-shared": 42,
-        "javascript": 116078
+        "javascript": 116295
       },
       "names": [],
       "idHints": [],
@@ -804,7 +804,7 @@
       "auxiliaryFiles": [
         "555.js.map"
       ],
-      "hash": "435869cc91dcc577",
+      "hash": "ab1bb8317d68f987",
       "childrenByOrder": {}
     },
     {
@@ -1438,9 +1438,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 606192,
+      "size": 608288,
       "sizes": {
-        "javascript": 606192
+        "javascript": 608288
       },
       "names": [],
       "idHints": [],
@@ -1454,7 +1454,7 @@
       "auxiliaryFiles": [
         "8886.js.map"
       ],
-      "hash": "0a5632836c39f301",
+      "hash": "b34ca87074d3a526",
       "childrenByOrder": {}
     },
     {

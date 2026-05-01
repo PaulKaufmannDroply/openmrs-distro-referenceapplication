@@ -41,5 +41,41 @@
   },
   "@openmrs/esm-styleguide": {
     "Brand color #1": "#005d5d"
+  },
+  "@msi/esm-field-app": {
+    "outreachLocations": [
+      "Dorf Nord",
+      "Grenzcamp Süd",
+      "Markt Ost"
+    ]
+  },
+  "@openmrs/esm-patient-registration-app": {
+    "commonLanguages": ["Arabisch", "Englisch", "Ukrainisch"],
+    "sections": ["demographics"],
+    "sectionDefinitions": [
+      {
+        "id": "demographics",
+        "name": "Basisinformationen",
+        "fields": ["name", "dob", "gender", "id", "phone", "nationality", "languages"]
+      }
+    ],
+    "fieldDefinitions": [
+      {
+        "id": "nationality",
+        "type": "person attribute",
+        "uuid": "c4b8a3c0-0001-0000-0000-000000000001",
+        "label": "Nationalität",
+        "showHeading": false,
+        "answerConceptSetUuid": "c4b8a3b0-ff00-0000-0000-000000000001",
+        "validation": { "required": false }
+      },
+      {
+        "id": "languages",
+        "type": "msi-custom",
+        "uuid": "c4b8a3c0-0002-0000-0000-000000000001",
+        "label": "Sprache(n)",
+        "showHeading": false
+      }
+    ]
   }
 }
