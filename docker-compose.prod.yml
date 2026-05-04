@@ -14,16 +14,13 @@ services:
       - gateway
 
   gateway:
-    build:
-      context: ./gateway
+    image: ghcr.io/paulkaufmanndroply/msi-gateway:latest
 
   frontend:
-    build:
-      context: ./frontend
+    image: ghcr.io/paulkaufmanndroply/msi-frontend:latest
 
   backend:
-    build:
-      context: .
+    image: ghcr.io/paulkaufmanndroply/msi-backend:latest
 
 volumes:
   caddy_data: ~
