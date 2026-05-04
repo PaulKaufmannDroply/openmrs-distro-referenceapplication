@@ -3318,13 +3318,8 @@
     ],
     "extensions": [
       {
-        "name": "MSI Mode Selector",
-        "component": "modeSelector",
-        "slot": "top-nav-actions-slot"
-      },
-      {
-        "name": "MSI Outreach Banner",
-        "component": "outreachBanner",
+        "name": "MSI Mode Bar",
+        "component": "modeBar",
         "slot": "breadcrumbs-slot"
       }
     ],
