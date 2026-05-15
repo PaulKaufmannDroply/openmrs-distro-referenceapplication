@@ -22,6 +22,10 @@ RUN cp /openmrs_distro/distro/target/sdk-distro/web/openmrs_core/openmrs.war /op
 RUN cp /openmrs_distro/distro/target/sdk-distro/web/openmrs-distro.properties /openmrs/distribution/
 RUN cp -R /openmrs_distro/distro/target/sdk-distro/web/openmrs_modules /openmrs/distribution/openmrs_modules/
 RUN cp -R /openmrs_distro/distro/target/sdk-distro/web/openmrs_owas /openmrs/distribution/openmrs_owas/
+# Merge MSI-specific Initializer config (SDK build-distro only pulls content packages,
+# not local distro/configuration/ files)
+RUN cp -r /openmrs_distro/distro/configuration/. \
+    /openmrs_distro/distro/target/sdk-distro/web/openmrs_config/
 RUN cp -R /openmrs_distro/distro/target/sdk-distro/web/openmrs_config /openmrs/distribution/openmrs_config/
 
 # Clean up after copying needed artifacts
