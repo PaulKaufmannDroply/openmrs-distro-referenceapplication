@@ -38,9 +38,11 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=dev /app/spa /usr/share/nginx/html
 COPY config-core_demo.json /usr/share/nginx/html
 
-# MSI Field App — inject build artifact and patch the generated importmap
+# MSI Field App + patched registration app — inject artifacts and patch importmap
 COPY msi-esm-field-app/ /usr/share/nginx/html/msi-esm-field-app/
-RUN jq '.imports["@msi/esm-field-app"] = "./msi-esm-field-app/msi-esm-field-app.js"' \
+COPY patched-esm-patient-registration-app/ /usr/share/nginx/html/patched-esm-patient-registration-app/
+RUN jq \
+    '.imports["@msi/esm-field-app"] = "./msi-esm-field-app/msi-esm-field-app.js" | .imports["@openmrs/esm-patient-registration-app"] = "./patched-esm-patient-registration-app/openmrs-esm-patient-registration-app.js"' \
     /usr/share/nginx/html/importmap.json | sponge /usr/share/nginx/html/importmap.json
 COPY routes.registry.json /usr/share/nginx/html/routes.registry.json
 
