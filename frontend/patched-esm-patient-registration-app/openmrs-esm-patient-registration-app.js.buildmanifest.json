@@ -193,7 +193,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "e3a451f64287ec6a",
+      "hash": "230424ed1f9034f7",
       "childrenByOrder": {}
     },
     {
@@ -702,7 +702,7 @@
       "auxiliaryFiles": [
         "527.js.map"
       ],
-      "hash": "0b950d773a6487e4",
+      "hash": "7ca247c8f2d5bb34",
       "childrenByOrder": {}
     },
     {
@@ -730,33 +730,6 @@
         "5280.js.map"
       ],
       "hash": "0a64b868bb220e49",
-      "childrenByOrder": {}
-    },
-    {
-      "type": "chunk",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "reason": "split chunk (cache group: defaultVendors)",
-      "size": 2296268,
-      "sizes": {
-        "javascript": 2296268
-      },
-      "names": [],
-      "idHints": [
-        "vendors"
-      ],
-      "runtime": [
-        "@openmrs/esm-patient-registration-app",
-        "main"
-      ],
-      "files": [
-        "5373.js"
-      ],
-      "auxiliaryFiles": [
-        "5373.js.map"
-      ],
-      "hash": "945f7463f2987fbb",
       "childrenByOrder": {}
     },
     {
@@ -804,7 +777,7 @@
       "auxiliaryFiles": [
         "555.js.map"
       ],
-      "hash": "ab1bb8317d68f987",
+      "hash": "6cb20d8573bc60d6",
       "childrenByOrder": {}
     },
     {
@@ -1263,7 +1236,7 @@
       "auxiliaryFiles": [
         "7297.js.map"
       ],
-      "hash": "37740204d42a7118",
+      "hash": "6d4c47bdcf424cfd",
       "childrenByOrder": {}
     },
     {
@@ -1310,7 +1283,7 @@
       "auxiliaryFiles": [
         "7649.js.map"
       ],
-      "hash": "1f08a97508bd399f",
+      "hash": "9088ef22096e5175",
       "childrenByOrder": {}
     },
     {
@@ -1359,6 +1332,33 @@
         "7912.js.map"
       ],
       "hash": "ea70c8b05b895369",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 2296268,
+      "sizes": {
+        "javascript": 2296268
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-registration-app",
+        "main"
+      ],
+      "files": [
+        "8259.js"
+      ],
+      "auxiliaryFiles": [
+        "8259.js.map"
+      ],
+      "hash": "b6da3d4f4b7e6fac",
       "childrenByOrder": {}
     },
     {
@@ -1438,9 +1438,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 608288,
+      "size": 605030,
       "sizes": {
-        "javascript": 608288
+        "javascript": 605030
       },
       "names": [],
       "idHints": [],
@@ -1454,7 +1454,7 @@
       "auxiliaryFiles": [
         "8886.js.map"
       ],
-      "hash": "b34ca87074d3a526",
+      "hash": "5aecc1eb4149669a",
       "childrenByOrder": {}
     },
     {
@@ -1552,7 +1552,7 @@
       "auxiliaryFiles": [
         "9397.js.map"
       ],
-      "hash": "b4c64c59aa383861",
+      "hash": "409b1d1890631072",
       "childrenByOrder": {}
     },
     {
@@ -1580,7 +1580,7 @@
       "auxiliaryFiles": [
         "openmrs-esm-patient-registration-app.js.map"
       ],
-      "hash": "ed14bee331c5d8b2",
+      "hash": "57913b28ed81109d",
       "childrenByOrder": {}
     },
     {
