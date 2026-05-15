@@ -21,6 +21,63 @@ The new OpenMRS UI is accessible at http://localhost/openmrs/spa
 
 OpenMRS Legacy UI is accessible at http://localhost/openmrs
 
+## MSI Production Deployment (patients.medical-solidarity.org)
+
+### Voraussetzungen (einmalig lokal)
+
+1. GitHub PAT für `PaulKaufmannDroply` mit `write:packages`-Scope erstellen:
+   https://github.com/settings/tokens
+2. Bei ghcr.io einloggen:
+   ```bash
+   echo "TOKEN" | docker login ghcr.io -u paulkaufmanndroply --password-stdin
+   ```
+3. Git-Remote mit PAT setzen (falls push fehlschlägt):
+   ```bash
+   git remote set-url origin https://PaulKaufmannDroply:TOKEN@github.com/PaulKaufmannDroply/openmrs-distro-referenceapplication.git
+   ```
+
+### Deployment (nach Code-Änderungen)
+
+```bash
+./deploy.sh
+```
+
+Baut die Images für `linux/amd64`, pusht zu ghcr.io und zeigt den Server-Update-Befehl.
+
+### Server einmalig einrichten
+
+```bash
+ssh ich@patients.medical-solidarity.org
+su -
+git clone https://github.com/PaulKaufmannDroply/openmrs-distro-referenceapplication /opt/openmrs
+cd /opt/openmrs
+git checkout feature/msi
+docker compose -f docker-compose.yml -f docker-compose.prod.yml pull
+docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+```
+
+Beim **ersten Start** muss der Setup-Wizard einmal manuell durchlaufen werden:
+https://patients.medical-solidarity.org/openmrs/web/setup.htm
+
+Die Datenbank-Migration dauert beim ersten Start 1–2 Stunden (433 Liquibase-Changesets).
+
+### Server updaten
+
+```bash
+cd /opt/openmrs && git pull && \
+  docker compose -f docker-compose.yml -f docker-compose.prod.yml pull && \
+  docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+```
+
+### Hinweise
+
+- Server: Debian 13, 1.9 GB RAM — ausreichend zum Betreiben, nicht zum Bauen
+- Images werden lokal gebaut (Apple Silicon → `linux/amd64` via QEMU) und zu ghcr.io gepusht
+- HTTPS via Caddy mit automatischem Let's Encrypt-Zertifikat
+- DB-Passwörter vor Produktivbetrieb in `.env` setzen
+
+---
+
 ## Overview
 
 This distribution consists of four images:
