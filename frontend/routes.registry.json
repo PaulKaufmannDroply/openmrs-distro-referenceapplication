@@ -1,20 +1,4 @@
 {
-  "@openmrs/esm-patient-label-printing-app": {
-    "$schema": "https://json.openmrs.org/routes.schema.json",
-    "backendDependencies": {
-      "patientdocuments": "^1.0.0-SNAPSHOT"
-    },
-    "extensions": [
-      {
-        "name": "print-identifier-sticker-button",
-        "slot": "patient-actions-slot",
-        "component": "printIdentifierStickerActionButton",
-        "online": true,
-        "offline": true
-      }
-    ],
-    "version": "12.0.1"
-  },
   "@openmrs/esm-system-admin-app": {
     "$schema": "https://json.openmrs.org/routes.schema.json",
     "backendDependencies": {
